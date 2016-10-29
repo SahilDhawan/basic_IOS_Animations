@@ -49,5 +49,19 @@ int i=0;
         self.imageView.center = CGPointMake(self.view.frame.size.width/2,self.view.frame.size.height/2);
     }];
 }
+- (IBAction)scaleImplementation:(id)sender {
+    [UIView animateWithDuration:3 animations:^{
+        self.imageView.transform = CGAffineTransformMakeScale(1.5, 1.5);
+    } completion:^(BOOL finished) {
+        self.imageView.transform = CGAffineTransformMakeScale(1,1);
+    }];
+}
+- (IBAction)transform:(id)sender {
+    [UIView animateWithDuration:3 animations:^{
+        //code
+        self.imageView.transform = CGAffineTransformMakeRotation(M_PI);
+    
+    }];
+}
 
 @end

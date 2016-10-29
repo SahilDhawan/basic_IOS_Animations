@@ -45,6 +45,18 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="8mG-AG-bzO"/>
+                                    <barButtonItem title="ROTATION" id="yU1-L9-9J9">
+                                        <connections>
+                                            <action selector="transform:" destination="BYZ-38-t0r" id="Lcr-wH-LRT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Wzn-oU-OIa"/>
+                                    <barButtonItem title="SCALE" id="saG-bR-kD6">
+                                        <connections>
+                                            <action selector="scaleImplementation:" destination="BYZ-38-t0r" id="NtO-s0-N9C"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="MUs-Sk-Xew"/>
                                     <barButtonItem title="SLIDE V" id="y6M-Mh-lQo">
                                         <connections>
                                             <action selector="slideVPressed:" destination="BYZ-38-t0r" id="gHO-wb-Paf"/>
